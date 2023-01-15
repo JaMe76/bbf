@@ -1,0 +1,4 @@
+.idea/
+pedocs/.ipynb_checkpoints/
+pedocs/pedocs/__pycache__/settings.cpython-38.pyc
+pedocs/pedocs/spiders/__pycache__/pedocs_spyder.cpython-38.pyc

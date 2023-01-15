@@ -51,7 +51,7 @@ class AnnReportLinkSpider(scrapy.Spider):
 
         # determine scope
         headline = response.css('table.a5-table-responsive tr td[itemprop="headline"] span.contentLine::text').get()
-        author = response.css('table.a5-table-responsive tr a[itemprop="author"] span.contentLine::text').get()
+        author = response.css('table.a5-table-responsive tr a[itemprop="author"] span.contentLine::text').getall()
         reference = response.css('table.a5-table-responsive tr td[itemprop="isPartOf"] span.contentLine::text').get()
         year_published = response.css('table.a5-table-responsive tr td[itemprop="datePublished"]::text').get()
         download_link = response.css('table.a5-table-responsive tr a.a5-book-list-item-fulltext::attr(href)').get()

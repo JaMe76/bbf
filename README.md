@@ -33,6 +33,14 @@ To start the spider run
 scrapy crawl pedocs
 ```
 
+# Convert to master data
+
+### Requirements
+
+`>> pip install pandas`
+
+Convertion to `master.csv` has been executed in Konvertierung_in_normalisierte_Darstlg.ipynb.
+
 
 
 
