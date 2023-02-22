@@ -22,15 +22,4 @@ import deepdoctection as dd
 
 
 if __name__=="__main__":
-
-    path = "/home/janis/Data/full_cut_files/2a9b309dbd5214bab227451ef39235e7e17fc921.pdf"
-    analyzer = get_layout_analyzer()
-    df = analyzer.analyze(path=path)
-    df.reset_state()
-
-    for dp in df:
-        print(dp.text)
-        dp.viz(interactive=True)
-
-
-
+    pass
